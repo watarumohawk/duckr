@@ -62,7 +62,8 @@
           reply,
           uid,
           timestamp,
-          avatar
+          avatar,
+          replyId,
         }
       }
     }
