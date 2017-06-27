@@ -1,7 +1,7 @@
 import React from 'react'
-import ReactDom from 'react-dom'
+import ReactDOM from 'react-dom'
 
-const Main = React.creacteClass({
+const Main = React.createClass({
   render() {
     return (
       <p> Hello World!</p>
@@ -10,8 +10,8 @@ const Main = React.creacteClass({
 });
 
 
-ReactDom.render(
+ReactDOM.render(
 
-  <Main />
-  document.getElementById('app');
+  <Main />,
+  document.getElementById('app')
 );
