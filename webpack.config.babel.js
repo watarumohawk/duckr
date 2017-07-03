@@ -36,6 +36,9 @@ const base = {
       {test: /\.js$/, exclude: /node_modules/, loader: 'babel-loader'},
       {test: /\.css$/, loader: 'style!css?sourceMap&modules&localIdentName=[name]__[local]___[hash:base64:5]'}
     ]
+  },
+  resolve: {
+    modules: [path.resolve(__dirname, "app"), "node_modules"]
   }
 }
 
