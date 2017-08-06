@@ -11,7 +11,7 @@ export default function FacebookAuthButton ({onAuth, isFetching}) {
     <button onClick={onAuth} className={button}>
       {isFetching === true
         ? 'Loading'
-        : 'Loading with facebook'}
+        : 'Login with facebook'}
     </button>
   )
 }
